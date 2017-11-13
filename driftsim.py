@@ -30,7 +30,7 @@ Rpart = 1e-3
 A = np.pi*Rpart**2
 
 # Drag parameter
-alpha = 0.5*C_D*A*rho_s*(1-beta**2)
+alpha = 0.5*C_D*A*rho_s*(1-beta)**2
 #alpha 1e-12
 
 # Mass of central star
