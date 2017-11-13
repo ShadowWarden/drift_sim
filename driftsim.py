@@ -83,6 +83,7 @@ for i in range(Nt-1):
             Part[i+1,j,2] = 0
             Part[i+1,j,3] = 0
             Part[i+1,j,4] = Part[i,j,4]
+            continue
         v_th = Part[i,j,3]
 
         # v_th equation
